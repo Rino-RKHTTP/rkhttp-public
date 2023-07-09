@@ -625,7 +625,7 @@ input:required {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  height: 70px;
+  height: 82px;
   background-color: rgba(0, 0, 0, 0.2); }
   .main-header-area.sticky {
     background-color: #000000; }
