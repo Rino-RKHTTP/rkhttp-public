@@ -53,6 +53,7 @@ Last Update: Feb 22, 2019
   padding: 0; }
 
 body {
+  
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -1695,6 +1696,35 @@ input:required {
     .post-title{
       text-transform: uppercase;
     }
+
+        
+.rounded-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 50px; /* This creates a rounded button */
+  background-color: #4CAF50; /* Button color */
+  color: #fff; /* Text color */
+  text-decoration: none;
+  transition: background-color 0.3s; /* Smooth transition on hover */
+  font-weight: bold;
+}
+
+
+.rounded-button:hover {
+  background-color: #45a049; /* Change button color on hover */
+}
+
+
+.rounded-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+
+.seeMoreButton {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
 /* @media only screen and (max-width: 700px){
